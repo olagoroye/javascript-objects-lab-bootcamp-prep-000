@@ -1,4 +1,4 @@
-function updateObjectWithKeyAndValue(object, key, value){
+at afunction updateObjectWithKeyAndValue(object, key, value){
   object[key]= value;
   return object;
 }
