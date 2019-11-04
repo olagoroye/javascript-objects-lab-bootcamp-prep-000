@@ -16,7 +16,8 @@ delete newobject[key];
 
 return object;
 }
- 
+1) Objects deleteFromObjectByKey(object, key) deletes `key` from a clone of object and returns the new object (it is non-destructive):
+     Error: Expected 1 to be undefined 
 
 function destructivelyDeleteFromObjectByKey(object, key){
   delete object[key];
